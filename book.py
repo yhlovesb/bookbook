@@ -37,8 +37,10 @@ if __name__ == '__main__':
 			print('=' * 100)
 			print('Title : ', i['title'])
 			print('Author : ', i['author'])
+			print('Image : ', i['image'])
 			print('Link : ', i['link'])
 			print('Description : ', i['description'][:50])
 			print(i)
+
 	else:
 		print("Error Code:" + response.getcode())
