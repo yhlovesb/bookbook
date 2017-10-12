@@ -41,6 +41,5 @@ if __name__ == '__main__':
 			print('Link : ', i['link'])
 			print('Description : ', i['description'][:50])
 			print(i)
-
 	else:
 		print("Error Code:" + response.getcode())
